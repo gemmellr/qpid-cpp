@@ -23,6 +23,7 @@
 
 source env.sh
 set -e                          # Fail on any un-checked error
+set -x                          # Debug
 
 trap stop_brokers EXIT
 
