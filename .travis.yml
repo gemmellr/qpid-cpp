@@ -33,5 +33,5 @@ before_script:
 - cd Build
 - cmake .. -DCMAKE_INSTALL_PREFIX=$PWD/install
 script:
-- make -j3 && make install && ctest -V -R ssl_tests
+- make -j3 && make install && ctest -V
 
