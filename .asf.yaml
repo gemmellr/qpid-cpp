@@ -19,8 +19,8 @@
 
 # https://cwiki.apache.org/confluence/display/INFRA/Git+-+.asf.yaml+features#Git.asf.yamlfeatures-GitHubsettings
 github:
-  description: "Mirror of Apache Qpid C++"
-  homepage: https://qpid.apache.org/components/cpp-broker
+  description: "Archive of Apache Qpid C++"
+  homepage: https://qpid.apache.org
   labels:
     - qpid
     - apache
@@ -44,6 +44,6 @@ github:
   autolink_jira:
     - INFRA
     - QPID
-  dependabot_alerts: true
-  dependabot_updates: true
+  dependabot_alerts: false
+  dependabot_updates: false
   del_branch_on_merge: true
